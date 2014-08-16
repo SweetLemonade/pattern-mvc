@@ -1,0 +1,20 @@
+{
+    "name": "mtv/mvc",
+    "version": "1.0.0",
+    "description": "Implementation of basic MVC pattern",
+    "authors": [
+        {
+            "name": "Myasnyankin Timur",
+            "email": "myasnyankin.tv@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "MVC\\": "core/"
+        }
+    }
+}

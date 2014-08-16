@@ -1,0 +1,1 @@
+Hi <?= ( ! empty($name) ) ? $name : 'guest' ?>!
